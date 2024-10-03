@@ -1,1 +1,22 @@
 # original_data
+df.rename(columns={
+                    'JS_NH3':'IN_NH3',
+                    'CS_NH3':'OUT_NH3' ,
+                    'JS_TN':'IN_TN',     
+                    'CS_TN':'OUT_TN' ,    
+                    'JS_LL':'IN_FR' ,    
+                    'CS_LL':'OUT_FR',
+                    'MCCS_NH4':'MP_OUT_NH4',
+                    'MCCS_NO3':'MP_OUT_NO3' ,   
+                    'JS_COD':'IN_COD'    ,
+                    'CS_COD': 'OUT_COD',
+                    'JS_SW':'IN_TEMP',
+                    'CS_SW':'OUT_TEMP',
+                    'B_HYC_NH4':'N_AEP_NH4',
+                    'B_HYC_XD':'N_AEP_XD',
+                    'B_HYC_MLSS':'N_AEP_MLSS',
+                    'B_HYC_JS_DO':'N_AEP_IN_DO',
+                    'B_HYC_DO':'N_AEP_OUT_DO',
+                    'B_CS_MQ_SSLL':'N_OUT_AEP_FR',
+                    'B_QY_ORP': 'N_ANP_ORP',
+                    'Label1': 'N_AQ', }, inplace=True)
